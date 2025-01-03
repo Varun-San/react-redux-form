@@ -7,6 +7,7 @@ const Nav = () => {
   const handleClick = () => {
     //Some Api calls
     navigate("/");
+    alert("Your Are Going To Home Page");
   };
 
   return (
@@ -16,7 +17,7 @@ const Nav = () => {
         <ul>
           <li onClick={handleClick}>Home</li>
           <li>
-            <Link to="/skills">Users</Link>
+            <Link to="/users">Users</Link>
           </li>
         </ul>
       </div>
